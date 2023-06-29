@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/main.css" rel="stylesheet">
+  <link href="./fontawesome/css/all.css" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="page-container">
+    <div class="info-bg">
+      <div class="info-container">
+        <div class="box">
+          <h2>Landing Page for Apps</h2>
+          <p style="font-size: 14px;;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, rem, distinctio! Dolores doloremque.</p>
+          <button>Show More</button>
+        </div>
+        <div class="box iphone-box">
+          <img src="./img/iphone.png" alt="iphone">
+        </div>
+      </div>
+    </div>
+
+    <div class="item-center">
+      <h3>It is the perfect them for your next Project!</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <button>Show Portfolio</button>
+    </div>
+
+    <div class="offer-bg">
+      <div class="offer-container">
+        <div class="item-center">
+          <span style="font-size: 14px;">services</span>  
+          <h3 style="margin-top: 0px;">What We Offer</h3>
+        </div>
+        <div class="item">
+          <i class="fas fa-mobile-alt odd"></i>
+          <h4>Responsive</h4>
+          <p>lorem ipsum I love coding</p>
+        </div>
+        <div class="item">
+          <i class="fas fa-flask even"></i>
+          <h4>Experiments</h4>
+          <p>lorem ipsum I love coding</p>
+        </div>
+        <div class="item">
+          <i class="fas fa-bolt odd"></i>
+          <h4>Quickness</h4>
+          <p>lorem ipsum I love coding</p>
+        </div>
+        <div class="item">
+          <i class="fas fa-globe-asia even"></i>
+          <h4>Global Shipping</h4>
+          <p>lorem ipsum I love coding</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item-center">
+      <span style="font-size: 14px;">Portfolio</span>  
+      <h3 style="margin: 0px;">What we can Do</h3>
+    </div>
+    
+    <div class="portfolio-bg">
+      <div class="portfolio-container">
+        <div class="box-wrap">
+          <div class="overlay anibox"></div>
+          <div class="overlay blackbox">
+            <h4>Stationary</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="box"><img src="./img/portfolio-1.jpg"></div>
+        </div>
+        <div class="box-wrap">
+          <div class="overlay anibox"></div>
+          <div class="overlay">
+            <h4>Stationary</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="box"><img src="./img/portfolio-2.jpg"></div>
+        </div>
+        <div class="box-wrap">
+          <div class="overlay anibox"></div>
+          <div class="overlay">
+            <h4>Stationary</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="box"><img src="./img/portfolio-3.jpg"></div>
+        </div>
+        <div class="box-wrap">
+          <div class="overlay anibox"></div>
+          <div class="overlay">
+            <h4>Stationary</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="box"><img src="./img/portfolio-4.jpg"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="box">
+        <i class="fab fa-google"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <span style="display: block; font-size: 10px; text-align: center;"><span style="font-size:14px; vertical-align: middle;">©️</span>Codingapple</span>
+    </div>
+  </div>
+
+  <script>
+    const addClass = () => {
+      console.log('Hello')
+      document.querySelector('.ani1').classList.add('box-wrap-ani');
+      document.querySelector('.ani2').classList.add('overlay-ani');
+      //document.querySelector('.ani1').classList.toggle('box-wrap-ani');
+      //document.querySelector('.ani2').classList.toggle('overlay-ani');
+    }
+
+    const deleteClass = () => {
+      console.log('Hello')
+      document.querySelector('.ani1').classList.remove('box-wrap-ani');
+      document.querySelector('.ani2').classList.remove('overlay-ani');
+    }
+  </script>
+</body>
+</html>

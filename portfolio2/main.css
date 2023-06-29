@@ -1,0 +1,104 @@
+div {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+p, h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.w-center {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w-right {
+  position: relative;
+  right: 0;
+}
+
+.w-left {
+  position: relative;
+  left: 0;
+}
+
+.v-center {
+  vertical-align: middle;
+}
+
+.fs-sm {
+  font-size: 0.7rem;
+}
+
+.btn-blue {
+  border-style: none;
+  border-radius: 2px;
+  padding: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #6fbaf8;
+  color: white;
+}
+
+.accent-color {
+  color: #6fbaf8;
+}
+
+.base-bg {
+  background-color: #f7f9fc;
+  width: 100%;
+  height: 500px;
+}
+
+.white-box {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0.5px 0.5px lightgray;
+}
+
+.left-border {
+  border-left: 1px solid lightgray;
+}
+
+.bottom-border {
+  border-bottom: 1px solid lightgray;
+}
+
+.profile-header {
+  color: #6fbaf8;
+  width: 98%;
+  margin: auto;
+}
+
+.profile-line {
+  border-bottom: 2px solid #6fbaf8;
+}
+
+.profile-grayline {
+  border-bottom: 2px solid lightgray;
+}
+
+.skill-box {
+  border: 1px solid lightgray;
+  font-size: 0.7rem;
+  padding: 5px 10px;
+  border-radius: 50px;
+  display: inline;
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .left-border {
+    border-left: 1px solid white;
+  }
+  .profile-header {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
